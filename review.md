@@ -1,6 +1,3 @@
-# Author
-
-[Xubo Luo]([杰瑞米写字的地方 (jeremy17.site)](http://www.jeremy17.site/))
 
 ## 1. Stable Matching
 
@@ -342,8 +339,6 @@ MOM-select(A, k):
 
 ### Master theorem
 
-![image-20210608094849371](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210608094849371.png)
-
 ### Integer multiplication
 
 ```python
@@ -488,8 +483,6 @@ rna-secondary-structure(n,b1,b2,...,bn):
 *Def.*  An **alignment** M is a set of ordered pairs xi-yj such that each character appears in at  most one pair and no crossings.
 
 *Def.* The **cost** of an alignment M is:
-
-![image-20210608163250785](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210608163250785.png)
 
 ```python
 sequence-alignment(m,n,x1,...,xm,y1,...,yn,theta,alpha):
@@ -896,7 +889,6 @@ Vertex-Cover = <sub>p</sub> Find-Vertex-Cover =<sub>p</sub> Find-Min-Vertex-Cove
 
 **Theorem.**  DIRECTED-HAMILTON-CYCLE≤<sub>P</sub> HAMILTON-CYCLE.
 
-**Pf.**![image-20210611112819062](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210611112819062.png)
 
 **Lemma.** G has a directed Hamilton cycle `iff` G' has a Hamilton cycle
 
@@ -906,8 +898,6 @@ Vertex-Cover = <sub>p</sub> Find-Vertex-Cover =<sub>p</sub> Find-Min-Vertex-Cove
 
 * Construct G to have 2^n Hamilton cycles. 
 * Intuition:  traverse path i from left to right  ⇔  set variable xi= true
-
-![image-20210611114455202](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210611114455202.png)
 
 **Construction.**  Given 3-SAT instance Φ with n variables xi and k clauses.  
 
@@ -937,7 +927,6 @@ Vertex-Cover = <sub>p</sub> Find-Vertex-Cover =<sub>p</sub> Find-Min-Vertex-Cove
 * Connect each literal to B. 
 * For each clause Cj, add a gadget of 6 nodes and 13 edges.
 
-![image-20210611221912946](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210611221912946.png)
 
 
 
@@ -950,8 +939,6 @@ Vertex-Cover = <sub>p</sub> Find-Vertex-Cover =<sub>p</sub> Find-Min-Vertex-Cove
 **Theorem.**  3-SAT≤P SUBSET-SUM.
 
 ### Poly-time reduction
-
-![image-20210611222232675](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210611222232675.png)
 
 ### P vs. NP
 
@@ -1014,5 +1001,3 @@ Vertex-Cover = <sub>p</sub> Find-Vertex-Cover =<sub>p</sub> Find-Min-Vertex-Cove
 * NP: 多项式时间内可验证的问题
 * NPC: 所有NP问题都可以归约到这个NP问题
 * NP-Hard: 所有NP问题都可以归约到这个问题
-
-![Loading...](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0t1bkJCL01hcmtkb3duUGhvdG9zL21hc3Rlci9QTlBOUENOUGhhcmQvMS5qcGc?x-oss-process=image/format,png)
